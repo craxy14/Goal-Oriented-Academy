@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Programming Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .toggle-button {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .toggle-content {
+            display: none;
+        }
+
+        .hr-style {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Goa Programming Academy</h1>
+    </header>
+    <div class="container">
+        <p>At Goa Programming Academy, we provide top-notch coding education to help you succeed in the tech industry.</p>
+        <button class="toggle-button" onclick="toggleContent()">Toggle Content</button>
+        <hr class="hr-style">
+        <div class="toggle-content" id="academy-info">
+            <h2>About Us</h2>
+            <p>We offer a variety of programming courses to enhance your skills and knowledge. Join us today!</p>
+        </div>
+    </div>
+    <script>
+        function toggleContent() {
+            var content = document.getElementById("academy-info");
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: blue ;
+  }
+  .main{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+  }
+  
+  input{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 30px;
+  }
+  
+  .container{
+    background: white;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px 10px black;
+    border-radius: 20px;
+  }
+  
+  h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+  }
+  
+  .container{
+    width: 360px;
+  }
+  
+  #inputFeild{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+  }
+  
+  #addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+  }
+  
+  #removeToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+  }
+  
+  .to-dos{
+    margin-top: 25px;
+    gap: 20px ;
+  }
+  
+  .paragraph-styling{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 10px;
+    padding: 2px 5px;
+  }

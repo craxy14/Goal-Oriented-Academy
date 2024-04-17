@@ -1,0 +1,10 @@
+#game {
+    border: 2px solid black;
+    display: flex;
+    width: 170px;
+}
+
+#choices {
+    border: 2px solid black;
+    width: fit-content;
+}

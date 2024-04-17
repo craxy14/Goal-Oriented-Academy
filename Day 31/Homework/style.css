@@ -1,0 +1,24 @@
+#goa {
+    font-size: 500%;
+    text-align: center;
+    text-shadow: 15px -2px 8px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px green;
+    font-weight: 900;
+}
+
+a {
+    font-size: 300%;
+}
+
+p {
+    font-size: 200%;
+    font-weight: 450;
+    color: rgb(15, 97, 19);
+    text-shadow: 15px -2px 8px rgb(0, 255, 38);
+}
+
+iframe {
+    width: 45%;
+    float: right;
+}

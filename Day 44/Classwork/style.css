@@ -1,0 +1,19 @@
+body {
+    font-size: 100px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 50px;
+    width: 1000px;
+    margin-left: 500px;
+}
+
+#accept {
+    height: 50px;
+    width: 50px;
+}
+
+#btn {
+    font-size: 50px;
+    border-radius: 25px;
+    padding: 5px;
+}

@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #0041bb73;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 50;
+    width: 100%;
+}
+
+#service {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#creation {
+    text-align: center;
+    font-size: 85px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 2px 3px rgb(0, 0, 0);
+    position: relative; bottom: 35px;
+    color: rgb(255, 80, 80);
+}
+
+h1 {
+    font-size: 150px;
+    color: rgb(255, 80, 80);
+    text-shadow: 5px 3px blue;
+}
+
+#welcome {
+    background-color: rgba(180, 0, 102, 0.332);
+    padding: 20px;
+    text-align: center;
+}
+
+#vision {
+    font-size: 55px;
+    color: rgb(255, 75, 75);
+    position: relative; bottom: 50px;
+    text-shadow: rgb(255, 255, 255) 3px 3px 10px;
+}
+
+#goapictures {
+    color:#284987;
+    font-size: 100px;
+    text-shadow: 5px 3px rgb(255, 108, 133);
+}
+
+#desc {
+    font-size: 25px;
+}
+
+#ourservice {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: rgb(0, 0, 0) 5px 3px;
+    color: rgb(255, 255, 255);
+}
+
+#offer {
+    font-size: 25px;
+    text-shadow: 1px 2px rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; bottom: 50px;
+    color:#000000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 4px 3px rgba(0, 153, 255, 0.353);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a:hover {
+    border-radius: 25px;
+    font-size: 40px;
+    transition: 0.7s;
+    background-color: rgba(255, 0, 221, 0.423);
+    box-shadow: rgba(46, 153, 240, 0.4) 0px 5px, rgba(46, 179, 240, 0.3) 0px 10px, rrgba(46, 240, 104, 0.2)0px 15px, rgba(46, 230, 240, 0.1) 0px 20px, rgba(46, 162, 240, 0.05) 0px 25px;
+    color: black;
+}
+
+#service {
+    background-color: rgba(2, 229, 97, 0.371);
+}
+
+#more {
+    position: relative; left: 20px;
+    text-decoration: overline solid white 2px;
+}
+
+#video {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 600px;
+}
+
+#video1 {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 650px;
+}
+
+#video2 {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 610px;
+
+}
+
+#video3 {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 600px;
+}
+
+#video4 {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 650px;
+}
+
+#video5 {
+    position: relative;bottom: 70px;
+    border: 5px rgb(255, 0, 0) solid;
+    width: 610px;
+}
+
+#socials {
+    background-color: white;
+    height: 100px;
+}
+
+#facebook {
+    width: 50px;
+    position: relative; right: 405px; top: 15px;
+}
+
+#instagram {
+    width: 50px;
+    position: relative; right: 485px; top: 15px;
+}
+
+#gmail-img {
+    width: 50px;
+    position: relative; right: 240px; top: 9px;
+}
+
+#phone {
+    width: 50px;
+    position: relative; top: 15px; right: 210px;
+}
+
+#youtube {
+    width: 50px;
+    position: relative; right: 365px; top: 9px;
+}
+
+#socials {
+    text-align: center;
+    position: relative; right: -100px;
+}
+
+#fb {
+    position: relative; right: 400px;
+    font-size: 25px;
+}
+
+#ig {
+    position: relative; right: 245px;
+    font-size: 25px;
+}
+
+#yt {
+    position: relative; right: 160px;
+    font-size: 25px;
+}
+
+#gmail {
+    position: relative; right: 80px;
+    font-size: 25px;
+}
+
+#tel {
+    position: relative; right: -30px;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 3px rgba(0, 153, 255, 0.353);
+}
+
+
+footer {
+    background-color: black;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- importing react cdn -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- importing reactDOM cdn -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- importing babel cdn -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <title>React-Test</title>
+</head>
+<body>
+<!-- creating a normal html div block and giving it an id "root" -->
+    <div id="root"></div>
+
+<!-- type text/babel = telling the script tag that its content type is babel(it transfers jsx code into a real js code) -->
+    <script type="text/babel">
+        function App(){
+            let count = 0
+
+            const increment = () => {
+                count += 1
+                console.log(count)
+            }
+
+            const decrement = () => {
+                count -= 1
+                console.log(count)
+            }
+
+            return (
+                // writing an html like code for js (jsx)
+                <div>
+                    <p>Count: {count }</p>
+                    <button onClick = {increment}>+</button>
+                    <button onClick = {decrement}>-</button>
+                </div>
+
+
+                // React.createElement("div", {id: "Vano"}, React.createElement("p", null, "Hello REACT"))
+            )
+        }
+
+        // using render function to render an specific component(1 = component name / telling where to render it by: elementID("root"))
+        ReactDOM.render(App(), document.getElementById("root"))
+
+
+    </script>
+</body>
+</html>

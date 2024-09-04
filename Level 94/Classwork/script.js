@@ -1,3 +1,14 @@
-import { person } from "./test.js";
+const inventory = {
+    sunglasses: 1900,
+    pants: 1088,
+    bags: 1344
+}
 
-console.log(person.name) 
+
+
+const promise = new Promise((resolve, reject) => {
+    if(inventory.sunglasses > 0) resolve("Successfull")
+    else reject("Failed")
+})
+
+console.log(promise)

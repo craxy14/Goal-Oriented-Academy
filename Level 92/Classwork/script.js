@@ -1,14 +1,55 @@
-const title = document.getElementById("name")
-const img = document.getElementById("img")
-const price = document.getElementById("price")
-const div = document.getElementById("main-div")
+const form = document.getElementById("register-form")
+const loginForm = document.getElementById("login-form")
 
-fetch('https://fakestoreapi.com/products/1')
-.then((result) =>{
-    return result.json();
-})
-.then((res) => {
-    console.log(res)
+let dataBase = []
+
+
+class Account {
+
+    constructor(firstname, password, email){
+        this.firstname = firstname
+        this.password = password
+        this.email = email
+    }
+
+}
+
+form.addEventListener("submit", function(e){
+    e.preventDefault();
+
+
+    dataBase.push(new Account(form.name.value, form.password.value, form.email.value))
+    console.log(dataBase)
 })
 
-div.insertAdjacentHTML("afterbegin", `<p>Hello</p>`)
+
+loginForm.addEventListener("submit", function(e){
+    e.preventDefault(); 
+
+    const acc = dataBase.find((obj) => obj.email === loginForm.email.value)
+
+    if(acc.password === loginForm.password.value) alert("Succesfull")
+    else alert("Noo")
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const person1 = new Account("Vano", "Motiashvili", "xxmarselxx7@gmail.com")
+
+
+// person1.changeName = "Luka"
+// console.log(person1)
+
+
+

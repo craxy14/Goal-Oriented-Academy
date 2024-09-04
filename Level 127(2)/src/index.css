@@ -1,0 +1,24 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: black;
+    width: fit-content;
+    border: 1px solid #222;
+    background-color: rgba(93, 179, 255, 0.336);
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input::placeholder {
+    font-size: 0.75rem;
+}

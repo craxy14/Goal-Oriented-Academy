@@ -1,0 +1,55 @@
+body {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: #222;
+}
+
+th {
+    background-color: #222;
+    color: white;
+    letter-spacing: 2px;
+}
+
+td, th{
+    padding: 5px 50px;
+    border: 1px solid #222;
+}
+
+table td {
+    font-size: 1.2rem;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(85, 191, 226);
+    color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(174, 235, 255);
+}
+
+button {
+    padding: 5px 35px;
+    font-size: 0.85rem;
+    color: white;
+    background-color: #222;
+    border: none;
+    border-radius: 3px;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: #222222de;
+}

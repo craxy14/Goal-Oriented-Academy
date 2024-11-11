@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1 id="nav-h1">Ivane</h1>
+        
+        <div id="a-div">
+            <a href="#" class="nav-a">Home</a>
+            <a href="#" class="nav-a">About</a>
+            <a href="#" class="nav-a">Services</a>
+            <a href="#" class="nav-a">Contact</a>
+        </div>
+
+        <button id="nav-btn">Contact Now</button>
+    </nav>
+
+    <div id="content">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/traffic-officer-showing-stop-sign-illustration-download-in-svg-png-gif-file-formats--stopping-halt-police-pack-people-illustrations-2425177.png" id="img" width="500px" alt="Traffic Sign">
+
+        <br>
+
+        <div id="btn-div">
+            <button class="main-btn" onclick="img.src='https://media.istockphoto.com/id/1179858968/vector/turn-left-traffic-sign-vector-illustration-traffic-road-sign.jpg?s=612x612&w=0&k=20&c=F-LWEJlLwdG6R3hkgLkh5PGHMrdrkkrOR5S0Ibel4nk=' , alert('Left')">Left</button>
+            <button class="main-btn reset-btn" onclick='img.src="https://cdni.iconscout.com/illustration/premium/thumb/traffic-officer-showing-stop-sign-illustration-download-in-svg-png-gif-file-formats--stopping-halt-police-pack-people-illustrations-2425177.png"'>Reset</button>
+            <button class="main-btn" onclick='img.src="https://www.roadtrafficsigns.com/img/lg/X/right-turn-sign-x-w1-1r.png", alert("Right")'>Right</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

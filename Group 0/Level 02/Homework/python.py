@@ -8,8 +8,8 @@
 # print(deadlift + bench)
 # print(name + " " + surname)
 
-name = "vano"  
-surname = "motiashvili"
+name = "saba"  
+surname = "sisauri"
 age = 16
-height = 186.5
+height = 172.5
 print(name + " " + surname + " " + str(age) + " " + str(height))

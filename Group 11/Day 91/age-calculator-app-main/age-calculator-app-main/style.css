@@ -1,0 +1,135 @@
+@font-face {
+    font-family: test;
+    src: url(Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: error;
+    src: url(Poppins-Italic.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: test;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-div {
+    background-color: white;
+    border-radius: 35px;
+    border-bottom-right-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+    width: 40%;
+    padding: 0px 50px;
+}
+
+#inputDiv form{
+    display: flex;
+    gap: 25px;
+}
+
+label {
+    color: #757575;
+    font-family: regular;
+}
+
+.input {
+    width: 150px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+input:focus { 
+    outline: none;
+    border-color: hsl(259, 100%, 65%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input::placeholder {
+    font-size: 1.75rem;
+}
+
+#arrowIconDiv {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50px;
+    padding: 45px;
+    width: fit-content;
+    width: 46px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+}
+
+#arrowBtn {
+    border-radius: 50px;
+    border: none;
+}
+
+#arrowIconDiv:hover {
+    background-color: #222;
+}
+
+#arrowIconDiv:active {
+    background-color: #222222af;
+}
+
+#horizontalDiv {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.37);
+}
+
+#arrowDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultP {
+    font-size: 5rem;
+}
+
+.dashSpan {
+    color: hsl(259, 100%, 65%);
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.699);
+    font-size: 0.75rem;
+    font-family: error;
+}

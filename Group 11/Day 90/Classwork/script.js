@@ -60,8 +60,6 @@ const box = document.getElementById("box")
 
 
 
-
-
 const form = document.getElementById("myForm")
 const dataBase = []
 

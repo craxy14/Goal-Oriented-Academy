@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div id="mainDiv">
+        <h1>To Do List!</h1>
+    </div>
+
+    <form id="myForm">
+        <input type="text" name="task" id="taskInput" placeholder="Enter your To-Do Task:" required>
+        <input type="submit" id="btn" class="btn">
+        <button id="delete" type="button" class="btn">Delete All</button>
+    </form>
+
+    <div id="result"></div>
+
 
     <script src="script.js"></script>
 </body>

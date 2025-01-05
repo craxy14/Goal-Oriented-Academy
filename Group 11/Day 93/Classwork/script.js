@@ -80,27 +80,24 @@
 
 
 
+// CLASSWORK!
 
-
-
-//CLASSWORK!
-
-//No1
+// No1
 // const cubeOfNum = num => num ** 3
 // console.log(cubeOfNum(3))
 
 
-//No2
+// No2
 // const sumOfNum = (num1,num2) => num1 + num2
 // console.log(sumOfNum(5,15))
 
 
-//No3
+// No3
 // const emptyFunc = () => `Learning JavaScript!`
 // console.log(emptyFunc())
 
 
-//No4
+// No4
 // const evenOrOdd = num => {
 //     if(num % 2 == 0){
 //         return `${num} is Even.`
@@ -110,26 +107,26 @@
 // console.log(evenOrOdd(10))
 
 
-//No5
+// No5
 // const multiples = (num1, num2=1) => num1 * num2
 // console.log(multiples(5))
 
 
-//No6
+// No6
 // const returnObj = (name, age) => {
 //     return new Object({name:name, age:age})
 // }
 // console.log(returnObj("vano", 17))
 
 
-//No7
+// No7
 // const positiveOrNegative = num => {
 //     return num >= 0 ? "Positive" : "Negative"
 // }
 // console.log(positiveOrNegative(-15))
 
 
-//No8
+// No8
 // const factorial = num => {
 //     let sum = 1
 //     for(let i = 1; i < num + 1; i ++)
@@ -139,7 +136,7 @@
 // console.log(factorial(5))
 
 
-//No9
+// No9
 // const func1 = (num1, num2) => {
 //     const func2 = (first, second) => {
 //         return first * second
@@ -149,7 +146,7 @@
 // func1(5,5)
 
 
-//No10
+// No10
 // const sumArr = arr => {
 //     sum = 0
 //     for(const value of arr){
@@ -161,3 +158,56 @@
 
 // DIFFERENCE BETWEEN DEFAULT "keyword" FUNCTIONS AND "arrow" FUNCTIONS IS JUST SYNTAX! IT MAKES CREATING FUNCTIONS MUCH EASIER!
 
+
+
+// const me = {
+//     name: "vano",
+//     lastname: "motiashvili",
+//     age: 17
+// }
+
+// for(let i in me){
+//     console.log(`${i}: ${me[i]}`)
+// }
+
+
+// const numbers = [1,2,3,4,5,6,7,8,9]
+
+// // using for in on arrs gives us element indexes (as a typeof string)
+// for(let i in numbers){
+//     console.log(numbers[i])
+//     console.log(typeof i)
+// }
+
+
+// const numbers = [1,2,3,4,5,6,7,8,9]
+// const fname = "vano"
+
+// for(let i of fname){
+//     console.log(i)
+//     console.log(typeof i)
+// }
+
+
+
+
+
+// function greet(name){
+//     console.log(`Hello Mr ${name}`)
+// }
+
+// greet("test")
+
+
+// const greet = (fname, lname) => (`Hello Mr ${fname[0].toUpperCase() + fname.slice(1), lname[0].toUpperCase() + lname.slice(1)}`)
+// console.log(greet("vano", "motiashvili"))
+
+// const validate = name => {
+//     name = name.toLowerCase()
+//     if(name == "vano"){
+//         return "Admin"
+//     }else {
+//         return "User"
+//     }
+// }
+// console.log(validate("VANO"))

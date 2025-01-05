@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+button {
+    padding: 50px;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#yellow {
+    background-color: yellow;
+    color: white;
+}
+
+@media only screen and (max-width: 435px) {
+    button {
+      border-radius: 50px;
+    }
+  }

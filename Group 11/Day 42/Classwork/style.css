@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+form:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 450px ;
+    height: 255px;
+}
+
+form {
+    border: rgb(60, 60, 60) 2px solid;
+    transition: 0.6s;
+    width: 400px;
+    background-color: #280137;
+    border-radius: 20px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    padding-left: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+input:hover {
+    box-shadow: 0px 5px 19px 0px rgba(255, 182, 64, 0.798);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 79px 8px rgba(130,255,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#btn {
+    transition: 0.7s;
+    border: 1px rgb(184, 184, 184) solid;
+    padding: 6px;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#age {
+    padding: 5px;
+}

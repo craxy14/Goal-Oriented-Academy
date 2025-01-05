@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#result {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.choice-btn {
+    padding: 10px;
+    font-size: 16px;
+}

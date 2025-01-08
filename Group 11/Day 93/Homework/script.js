@@ -79,3 +79,5 @@ function checkedTick(tick){
 deleteAll.addEventListener("click", function(){
     result.innerHTML = "";
 })
+
+// -------------------------------------------------------------

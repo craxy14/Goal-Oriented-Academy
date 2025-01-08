@@ -16,8 +16,7 @@
 // const primeNumbers = numbers.filter(isPrime);
 // console.log(primeNumbers)
 
-
-
+// -------------------------------------------------------------
 // 2. **Map to Object Conversion**
 //    - Given an array of objects (e.g., users with `id` and `name`), use `map()` to create an array of strings that contains only the names.
 // const items = [
@@ -33,6 +32,7 @@
 // })
 // console.log(mapItems)
 
+// -------------------------------------------------------------
 // 4. **Filter Objects by Property**
 //    - Given an array of objects representing products (each having a `name` and `price`), use `filter()` to return products that are cheaper than a certain value.
 // const products = [
@@ -50,8 +50,7 @@
 // })
 // console.log(cheap)
 
-
-
+// -------------------------------------------------------------
 // 5. **Map Complex Transformations**
 //    - Create an array of objects representing books (with `title` and `author`). Use `map()` to return an array of strings in the format: `"Title by Author"`.
 // const books = [
@@ -66,8 +65,7 @@
 // })
 // console.log(titleAuthor)
 
-
-
+// -------------------------------------------------------------
 // 6. **Filter Numbers Based on Multiple Conditions**
 //    - Given an array of numbers, use `filter()` to return numbers that are both greater than 10 and divisible by 3.
 // const numbers2 = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 17, 18, 21, 24]
@@ -79,8 +77,7 @@
 // })
 // console.log(filteredNums)
 
-
-
+// -------------------------------------------------------------
 // 7. **Modify Array of Objects (map)**
 //    - Given an array of objects representing users with a `name` and `age`, use `map()` to return a new array where all users are considered adults (i.e., add a new `isAdult` property based on their age).
 // const users = [
@@ -96,8 +93,7 @@
 // })
 // console.log(isAdultMap)
 
-
-
+// -------------------------------------------------------------
 // 8. **Chaining map and filter**
 //    - Create an array of numbers. First, use `filter()` to return numbers greater than 50. Then, use `map()` to halve those numbers.
 // const numbers3 = [20, 3, 44, 5, 76, 7, 58, 79, 10, 11, 13, 14, 117, 18, 21, 324]
@@ -112,8 +108,7 @@
 // })
 // console.log(half)
 
-
-
+// -------------------------------------------------------------
 // 9. **Log Word Frequencies (forEach)**
 //    - Create an array of words. Use `forEach()` to create an object that tracks how many times each word appears in the array.
 // const word = ["vano", "giorgi", "data", "vano", "nika", "giorgi",]
@@ -128,8 +123,7 @@
 // })
 // console.log(wordCount)
 
-
-
+// -------------------------------------------------------------
 // 10. **Filter Objects by Nested Property**
 //    - Given an array of objects representing cars (with nested objects for `brand` and `model`), use `filter()` to return only cars of a specific brand.
 // const cars = [
@@ -149,7 +143,7 @@
 // })
 // console.log(filteredCars)
 
-
+// -------------------------------------------------------------
 // ### Project Idea: **Shopping Cart with Discounts**
 
 // **Description:** Build a simple shopping cart where users can add, remove, and update items. Each item has a name, price, and quantity. Use DOM manipulation, arrow functions, and methods like `map()`, `filter()`, and `forEach()` to perform the following:
@@ -250,3 +244,5 @@ const checkDuplicate = (newItem) => {
     })
     return false
 }
+
+// -------------------------------------------------------------

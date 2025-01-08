@@ -7,8 +7,7 @@
 // delete me.age // შლის ნებისმიერ კუთვნილებას ობიექტიდან
 // console.log(me)
 
-
-
+// -------------------------------------------------------------
 class Person{
     constructor(firstname,surname, age) {
         this.firstname = firstname,
@@ -28,3 +27,5 @@ const person3 = new Person("Luka", "Tskhvaradze", 18)
 console.log(person1)
 console.log(person2)
 console.log(person3)
+
+// -------------------------------------------------------------

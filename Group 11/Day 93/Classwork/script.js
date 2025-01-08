@@ -12,9 +12,7 @@
 // printInfo() //calling the function
 // console.log(name) //logging the var variable
 
-
-
-
+// -------------------------------------------------------------
 // const me = {
 //     name: "vano",
 //     surname: "motiashvili",
@@ -33,8 +31,7 @@
 //     console.log(me[key])
 // }
 
-
-
+// -------------------------------------------------------------
 // const numbers = [1,2,3,4,5,6,7,8,9]
 // const surname = "motiashvili"
 
@@ -52,15 +49,14 @@
 //     console.log(typeof values)
 // }
 
-
-
+// -------------------------------------------------------------
 // OLD WAY OF CREATING FUNCTIONS USING "function" KEYWORD!
 // function greet(name){
 //     return `Hello Mr/Ms ${name}`
 // }
 // console.log(greet("Vano"))
 
-
+// -------------------------------------------------------------
 // // NEWER SYNTAX (ECMASCRIPT6) OF CREATING "ARROW FUNCTIONS"!
 // const welcome1 = name => `Hello Mr/Ms ${name}`
 // console.log(welcome1("Ivan"))
@@ -76,27 +72,24 @@
 // }
 // console.log(welcome3("David","Motiashvili"))
 
-
-
-
-
+// -------------------------------------------------------------
 // CLASSWORK!
 
 // No1
 // const cubeOfNum = num => num ** 3
 // console.log(cubeOfNum(3))
 
-
+// -------------------------------------------------------------
 // No2
 // const sumOfNum = (num1,num2) => num1 + num2
 // console.log(sumOfNum(5,15))
 
-
+// -------------------------------------------------------------
 // No3
 // const emptyFunc = () => `Learning JavaScript!`
 // console.log(emptyFunc())
 
-
+// -------------------------------------------------------------
 // No4
 // const evenOrOdd = num => {
 //     if(num % 2 == 0){
@@ -106,26 +99,26 @@
 // }
 // console.log(evenOrOdd(10))
 
-
+// -------------------------------------------------------------
 // No5
 // const multiples = (num1, num2=1) => num1 * num2
 // console.log(multiples(5))
 
-
+// -------------------------------------------------------------
 // No6
 // const returnObj = (name, age) => {
 //     return new Object({name:name, age:age})
 // }
 // console.log(returnObj("vano", 17))
 
-
+// -------------------------------------------------------------
 // No7
 // const positiveOrNegative = num => {
 //     return num >= 0 ? "Positive" : "Negative"
 // }
 // console.log(positiveOrNegative(-15))
 
-
+// -------------------------------------------------------------
 // No8
 // const factorial = num => {
 //     let sum = 1
@@ -135,7 +128,7 @@
 // }
 // console.log(factorial(5))
 
-
+// -------------------------------------------------------------
 // No9
 // const func1 = (num1, num2) => {
 //     const func2 = (first, second) => {
@@ -145,7 +138,7 @@
 // }
 // func1(5,5)
 
-
+// -------------------------------------------------------------
 // No10
 // const sumArr = arr => {
 //     sum = 0
@@ -158,8 +151,7 @@
 
 // DIFFERENCE BETWEEN DEFAULT "keyword" FUNCTIONS AND "arrow" FUNCTIONS IS JUST SYNTAX! IT MAKES CREATING FUNCTIONS MUCH EASIER!
 
-
-
+// -------------------------------------------------------------
 // const me = {
 //     name: "vano",
 //     lastname: "motiashvili",
@@ -170,7 +162,7 @@
 //     console.log(`${i}: ${me[i]}`)
 // }
 
-
+// -------------------------------------------------------------
 // const numbers = [1,2,3,4,5,6,7,8,9]
 
 // // using for in on arrs gives us element indexes (as a typeof string)
@@ -179,7 +171,7 @@
 //     console.log(typeof i)
 // }
 
-
+// -------------------------------------------------------------
 // const numbers = [1,2,3,4,5,6,7,8,9]
 // const fname = "vano"
 
@@ -188,17 +180,14 @@
 //     console.log(typeof i)
 // }
 
-
-
-
-
+// -------------------------------------------------------------
 // function greet(name){
 //     console.log(`Hello Mr ${name}`)
 // }
 
 // greet("test")
 
-
+// -------------------------------------------------------------
 // const greet = (fname, lname) => (`Hello Mr ${fname[0].toUpperCase() + fname.slice(1), lname[0].toUpperCase() + lname.slice(1)}`)
 // console.log(greet("vano", "motiashvili"))
 
@@ -211,3 +200,5 @@
 //     }
 // }
 // console.log(validate("VANO"))
+
+// -------------------------------------------------------------

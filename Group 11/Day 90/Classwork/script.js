@@ -55,11 +55,7 @@ const box = document.getElementById("box")
 
 // setInterval(boxAnimation, 10);
 
-
-
-
-
-
+// -------------------------------------------------------------
 const form = document.getElementById("myForm")
 const dataBase = []
 
@@ -92,3 +88,5 @@ form.addEventListener("submit",function(e){
     dataBase.push(password)
     console.log(dataBase)
 })
+
+// -------------------------------------------------------------

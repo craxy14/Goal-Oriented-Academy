@@ -1,10 +1,7 @@
 // map აბრუნებს ახალ მასივს, მოდიფიცირებული მონაცემებით (ორიგინალ მასივს არ ცვლის)
 // filter აბრუნებს ახალ მასივს, ისეთი მონაცემებით, რომლებიც აკმაყოფილებენ კონკრეტულ პირობას
 
-
-
-
-
+// -------------------------------------------------------------
 // const form = document.querySelector("form") // გვიბრუნებს პირველივე ფორმას
 // const ul = document.getElementById("items")
 
@@ -31,10 +28,7 @@
 //     form.task.value = ""
 // })
 
-
-
-
-
+// -------------------------------------------------------------
 // const names = ["vano", "nika", "luka", "data", "giorgi"]
 
 // names.forEach((curValue, index, arr) => {
@@ -45,6 +39,7 @@
 //     }
 // })
 
+// -------------------------------------------------------------
 // const names2 = ["vano", "nika", "luka", "data", "giorgi"]
 
 // const manualForEach = (arr, func) => {
@@ -61,9 +56,7 @@
 //     }
 // })
 
-
-
-
+// -------------------------------------------------------------
 // const names3 = ["vano", "nika", "luka", "data", "giorgi"]
 
 // const newNames = names3.map((curValue, index, arr) => {
@@ -85,14 +78,7 @@
 //     return curValue + index
 // }))
 
-
-
-
-
-
-
-
-
+// -------------------------------------------------------------
 
 // 1) გამოიყენეთ forEach მეთოდი და გააკეთეთ 2 მაგალითი, ამის შემდეგ თქვენი ხელით შექმენით forEach მეთოდის კლონი
 // const names4 = ["vano", "nika", "luka", "data", "giorgi"]
@@ -111,8 +97,7 @@
 //     }
 // })
 
-
-
+// -------------------------------------------------------------
 // 2) შექმენით მასივი სადაც გექნებათ მინიმუმ 5 სახელი, გამოიყენეთ map მეთოდი და შეამოწმეთ შემდეგი პირობა, თუ ინდექსი არის ლუწი მაშინ ახალ მასივში სახელი დაამატეთ დიდი ასოებით სხვა შემთხვევაში თუ კენტია დაამატეთ პატარა ასოებით, როცა ამას დაასრულებთ შექმენით  map მეთოდის კლონი და გააკეთეთ იგივე დავალება თვენი კლონით, აუცილებალდ ახსენით რა განსხვავებაა forEach სა და map მეთოდს შორის
 // const names5 = ["vano", "nika", "luka", "data", "giorgi"]
 
@@ -124,9 +109,7 @@
 //     }
 // })
 
-
-
-
+// -------------------------------------------------------------
 // const names6 = ["vano", "nika", "luka", "data", "giorgi"]
 
 // const manualUpperLower = (arr, func) => {
@@ -147,9 +130,7 @@
 //     }
 // })
 
-
-
-
+// -------------------------------------------------------------
 // const names7 = ["vano", "nika", "luka", "data", "lile"]
 
 // const notL = names7.filter((curValue) => {
@@ -174,9 +155,7 @@
 //     return curValue[0] != "l"
 // })
 
-
-
-
+// -------------------------------------------------------------
 // 3) შექმენით მასივი სადაც გექნებათ 5 ობიექტი, ამ ობიექტებში უნდა იყოს სახელის კუთვნილება და ასაკის კუთვნილება რომელშიც შეინახება რიცხვი, თვქენი დავალეება გააკეთით ფილტრაციუა და შექმნათ ორი ახალი მასივი filter- ის დახმარებით, პირველ მასივში უნდა იყოს მხოლოდ ის ობიექტები რომლები  არიან 18ის ან 18 მეტი ასაკის, ხოლო მეორეში კი 18 ზე ნაკლებიუ, ამის გაკეთების შემდეგ შექმენით თვქნეი საკუთარი filter მეთოდის კლონი და იგივე დავალებაა გააკეთეთ კლონის დახმარებით, აგრეთვე ახსენით რა განსხვავებაა map სა და filters შორის
 // const objArr = [
 //     {name: "vano", age: 17},
@@ -197,7 +176,7 @@
 // console.log(above18)
 // console.log(below18)
 
-
+// -------------------------------------------------------------
 // const ageFilterClone = ((obj, func) => {
 //     const above18 = []
 //     const below18 = []
@@ -219,16 +198,7 @@
 //     return curObj.age >= 18
 // })
 
-
-
-
-
-
-
-
-
-
-
+// -------------------------------------------------------------
 // 1)Double the Numbers (map)
 // Create an array of numbers. Use map() to return a new array where each number is doubled.
 // const numbers1 = [1,5,7,2,4,7,8,3]
@@ -238,8 +208,7 @@
 // })
 // console.log(doubledNumbers)
 
-
-
+// -------------------------------------------------------------
 // 2)Filter Even Numbers (filter)
 // Given an array of numbers, use filter() to return a new array containing only the even numbers.
 // const numbers2 = [1,5,7,2,4,7,8,3]
@@ -249,8 +218,7 @@
 // })
 // console.log(filteredNumbers)
 
-
-
+// -------------------------------------------------------------
 // 3)Square of Numbers (map)
 // Create an array of numbers. Use map() to return a new array where each number is squared.
 // const numbers4 = [1,5,7,2,4,7,8,3]
@@ -260,8 +228,7 @@
 // })
 // console.log(squaredNum)
 
-
-
+// -------------------------------------------------------------
 // 4)Extract Long Names (filter)
 // Create an array of names. Use filter() to return a new array of names longer than 5 characters.
 // const names1 = ["vano", "giorgi", "irakli", "nika"]
@@ -273,8 +240,7 @@
 // })
 // console.log(longNames)
 
-
-
+// -------------------------------------------------------------
 // 5)Capitalize First Letter (map)
 // Create an array of strings. Use map() to return a new array where the first letter of each string is capitalized.
 // const names2 = ["vano", "giorgi", "irakli", "nika"]
@@ -284,8 +250,7 @@
 // })
 // console.log(capitalizedStrings)
 
-
-
+// -------------------------------------------------------------
 // 6)Sum All Numbers (forEach)
 // Given an array of numbers, use forEach() to iterate through the array and find the sum of all numbers.
 // const numbers5 = [1,5,7,2,4,7,8,3]
@@ -298,8 +263,7 @@
 
 // console.log(sum)
 
-
-
+// -------------------------------------------------------------
 // 7)Remove Short Words (filter)
 // Create an array of words. Use filter() to return a new array containing only words that are longer than 3 characters.
 // const names3 = ["vano", "gio", "ili", "nika",]
@@ -311,8 +275,7 @@
 // })
 // console.log(longWords)
 
-
-
+// -------------------------------------------------------------
 // 8)Add Prefix to Words (map)
 // Create an array of words. Use map() to add the prefix "super" to each word and return a new array.
 // const names4 = ["vano", "gio", "ili", "nika",]
@@ -322,8 +285,7 @@
 // })
 // console.log(superPrefix)
 
-
-
+// -------------------------------------------------------------
 // 9)Filter Odd Numbers (filter)
 // Given an array of numbers, use filter() to return a new array containing only the odd numbers.
 // const numbers6 = [1,5,7,2,4,7,8,3]
@@ -333,8 +295,7 @@
 // })
 // console.log(oddNumbers)
 
-
-
+// -------------------------------------------------------------
 // 10)Log Each Element (forEach)
 // Create an array of numbers. Use forEach() to log each element of the array to the console.
 // const numbers7 = [1,5,7,2,4,7,8,3]
@@ -342,3 +303,4 @@
 //     console.log(curValue)
 // })
 
+// -------------------------------------------------------------

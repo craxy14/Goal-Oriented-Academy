@@ -518,7 +518,7 @@
 
 // 7. Use the `filter` function to extract all prime numbers from an array of numbers.
 
-const numbers = [7, 13, 4, 15, 16, 5]
+// const numbers = [7, 13, 4, 15, 16, 5]
 
 
 

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #222;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+form input {
+    padding: 7.5px 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+#resultDiv {
+    height: 500px;
+    color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    font-size: 1.05rem;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#resultDiv img {
+    width: 325px;
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#searchLabel {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 1.1px;
+}
+
+#submitBtn {
+    padding: 7.5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#visitBtn {
+    padding: 7.5px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#loginP {
+    font-size: 2rem;
+}
+
+#nameP {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 0.85rem;
+}
+
+#bioP span{
+    color: rgba(255, 255, 255, 0.76);
+}
+
+#repoP span {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+button{
+    transition: 0.25s;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}

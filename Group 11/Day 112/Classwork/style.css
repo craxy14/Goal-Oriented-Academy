@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #222  ;
+}
+
+#mainDiv {
+    width: 50%;
+}
+
+#mainDiv div {
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;;
+    gap: 15px;
+    padding: 15px;
+}
+
+#myForm label {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+}
+
+#myForm {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+

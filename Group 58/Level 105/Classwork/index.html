@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Hello world!</p>
+    <p class="p2">Hello World!</p>
+    <p>Name:</p>
+
+    <script>
+        // <!-- 1) შექმენიტ html ფაილი სადაც გექნებათ 3 პარაგრაფი, აირჩიეთ პირველი პარაგრაფი და შეცვალეთ მისი ტექსტის შიგთავსი და მისი id, მეორე პარაგრაფში შეცვალეთ 
+        // მისი უკანაფერი და class, ხოლო მესამე პარაგრაფში დაამატეთ b თეგი ხოლო b თეგში კი რაიმე ტექსტი -->
+        const p1 = document.body.children[0];
+        p1.textContent = 'Hi';
+        p1.id = 'paragraph1';
+
+        const p2 = document.body.children[1];
+        p2.style.backgroundColor  = 'red'
+        p2.className = 'paragraph2'
+
+        const p3 = document.body.children[2];
+        p3.innerHTML = 'Name: <b> Vano </b>'
+    </script>
+</body>
+</html>
